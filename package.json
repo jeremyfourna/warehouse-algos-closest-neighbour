@@ -1,0 +1,30 @@
+{
+  "name": "warehouse-algos-closest-neighbour",
+  "version": "0.1.0",
+  "description": "Closest Neighbour algo for warehouse-path",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha --timeout=3000",
+    "clean": "eslint src/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeremyfourna/warehouse-algos-closest-neighbour.git"
+  },
+  "author": "Jeremy Fourna <jeremyfourna@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeremyfourna/warehouse-algos-closest-neighbour/issues"
+  },
+  "homepage": "https://github.com/jeremyfourna/warehouse-algos-closest-neighbour#readme",
+  "dependencies": {
+    "ramda": "^0.25.0",
+    "warehouse-picker-tour": "^0.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.0.1",
+    "eslint": "^4.14.0",
+    "mocha": "^3.4.2",
+    "nyc": "^11.0.1"
+  }
+}
